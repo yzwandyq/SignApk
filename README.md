@@ -1,5 +1,5 @@
 # Apk/Zip signing tool pulled out of the AOSP
-20170810
+20130124
 Oracle Java和OpenJDK环境都可以用
 测试环境Ubuntu16.04 64位系统OpenJDK8
 
@@ -11,10 +11,6 @@ and is just here for convenient access along with a prebuilt jarfile.
 
 ## Usage
 
-文件存放目录signapk
-64位系统使用方法：
-
 example:
 
-java -Xmx2048m -Djava.library.path=/home/Yzw/android/signapk/lib64 -jar signapk.jar -w testkey.x509.pem testkey.pk8 OTA.zip OTA_signed.zip
-# signapk
+java -jar signapk.jar -w testkey.x509.pem testkey.pk8 OTA.zip OTA_signed.zip
