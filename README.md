@@ -18,3 +18,4 @@ example:
 
 java -Xmx2048m -Djava.library.path=/home/Yzw/android/signapk/lib64 -jar signapk.jar -w testkey.x509.pem testkey.pk8 OTA.zip OTA_signed.zip
 # signapk
+# signapk
